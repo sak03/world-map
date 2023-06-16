@@ -7,6 +7,8 @@
 #### Step 2: Run the application using  `npm start`
 
 ###### When application is run successfully you will see the UI like below image.
-<img align="center" src="worldMap1.png" height="100" />
+![Application loading UI](./worldMap1.png)
+
+<img align="center" src="/worldMap1.png" height="100" />
 
 
