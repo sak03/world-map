@@ -64,7 +64,7 @@ const LandingPage = () => {
                     start={start}
                 />
             </div>
-            <div className='row'>
+            <div className='row' style={{ position: "relative", top: "1.5rem" }}>
                 <div className='col-lg-9'>
                     <ComposableMap
                         projection="geoMercator"
@@ -99,12 +99,11 @@ const LandingPage = () => {
                         </Geographies>
                     </ComposableMap>
                 </div>
-                <div
-                    className='col-lg-3'
+                <div className='col-lg-3'
                     style={{ position: "relative", top: "5rem" }}
                 >
                     {selectedCountryData !== null ?
-                        <div>
+                        <div className='mx-5'>
                             <h3>{selectedCountryData?.name?.common}</h3>
                             <div><i className='text-muted'>{selectedCountryData?.name?.official}</i></div>
                             <img src={selectedCountryData?.flags?.png} alt="countryImg" width={100} className='border' />
